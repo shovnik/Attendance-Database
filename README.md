@@ -1,1 +1,3 @@
-# Attendance-Database
+# Attendance Database
+
+This project consists of a simulation of a fingerprint based attendance system. It utilize the sqlite3 library that allows creation and modification of an sql database through c++ code. The attendance program simulates students entering an exitting at various times creating attendance logs in a first database called "Timestamp". The interface program allows inserting, deleting, and searching for students registered in a second "Fingerprint" database. In addition, it also allows viewing the attendance logs of particular students or on particular dates. The interface is entirely command line as I wanted to focus on the functionality of the database, however I may add a proper GUI in the future.
